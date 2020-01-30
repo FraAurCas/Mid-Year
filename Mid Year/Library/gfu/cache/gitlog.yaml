@@ -13,9 +13,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-30T09:27:14.205-05:00
+  lastUpdatedAtString: 2020-01-30T09:28:01.000-05:00
   initializedAtString: 2020-01-30T09:13:33.555-05:00
   log:
+  - commitID: ad1083de786ba70de59d6855c0de19c32afa6ec2
+    mergeA: 
+    mergeB: 
+    authorName: FraAurCas
+    authorEmail: frankcasella17@gmail.com
+    commitEmail: frankcasella17@gmail.com
+    commitName: FraAurCas
+    summary: i
+    description: 
+    timeString: 2020-01-30T09:27:56.000-05:00
+    commitTimeString: 2020-01-30T09:27:56.000-05:00
+    changes:
+    - path: Mid Year\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: a70e5717ee6f2e4dcec8cd6d18eaf9c9d2b87339
     mergeA: 
     mergeB: 
