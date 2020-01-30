@@ -61,7 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\GunController.cs" />
+    <Compile Include="Assets\Scripts\PauseMode.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
+    <Compile Include="Assets\Scripts\Unpause.cs" />
+    <Compile Include="Assets\Scripts\WorldController.cs" />
     <Compile Include="Assets\Scripts\ZombieController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/frank/Mid-Year/Mid Year/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
