@@ -13,9 +13,117 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-30T09:26:24.425-05:00
+  lastUpdatedAtString: 2020-01-30T09:27:04.365-05:00
   initializedAtString: 2020-01-30T09:13:33.555-05:00
   log:
+  - commitID: 7aa71ffd4d65f4bfe288f4a5e9f1580f3d6ec331
+    mergeA: 
+    mergeB: 
+    authorName: FraAurCas
+    authorEmail: frankcasella17@gmail.com
+    commitEmail: frankcasella17@gmail.com
+    commitName: FraAurCas
+    summary: r
+    description: 
+    timeString: 2020-01-30T09:27:00.000-05:00
+    commitTimeString: 2020-01-30T09:27:00.000-05:00
+    changes:
+    - path: Mid Year\ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: fa52d9b48494dd45f8fb4e0a2c242751603b9798
+    mergeA: 
+    mergeB: 
+    authorName: FraAurCas
+    authorEmail: frankcasella17@gmail.com
+    commitEmail: frankcasella17@gmail.com
+    commitName: FraAurCas
+    summary: o
+    description: 
+    timeString: 2020-01-30T09:26:51.000-05:00
+    commitTimeString: 2020-01-30T09:26:51.000-05:00
+    changes:
+    - path: Mid Year\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 76fe34e6f30dd49d33f23c282b69016e4111aa73
+    mergeA: 
+    mergeB: 
+    authorName: FraAurCas
+    authorEmail: frankcasella17@gmail.com
+    commitEmail: frankcasella17@gmail.com
+    commitName: FraAurCas
+    summary: w
+    description: 
+    timeString: 2020-01-30T09:26:32.000-05:00
+    commitTimeString: 2020-01-30T09:26:32.000-05:00
+    changes:
+    - path: Mid Year\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Mid Year\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 750095a7e498d7f7cb663d19459a307ad5d7d787
     mergeA: 
     mergeB: 

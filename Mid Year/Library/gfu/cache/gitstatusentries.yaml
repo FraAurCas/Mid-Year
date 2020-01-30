@@ -13,18 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-01-30T09:26:24.678-05:00
+  lastUpdatedAtString: 2020-01-30T09:27:04.601-05:00
   initializedAtString: 2020-01-30T09:12:50.554-05:00
   entries:
   - path: Mid Year\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Mid Year\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -46,57 +40,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Mid Year\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\frank\Mid-Year\Mid Year\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Mid Year\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\frank\Mid-Year\Mid Year\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Mid Year\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\frank\Mid-Year\Mid Year\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Mid Year\ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Users\frank\Mid-Year\Mid Year\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Mid Year\ProjectSettings\GraphicsSettings.asset
-    fullPath: C:\Users\frank\Mid-Year\Mid Year\ProjectSettings\GraphicsSettings.asset
-    projectPath: ProjectSettings\GraphicsSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Mid Year\ProjectSettings\NavMeshAreas.asset
-    fullPath: C:\Users\frank\Mid-Year\Mid Year\ProjectSettings\NavMeshAreas.asset
-    projectPath: ProjectSettings\NavMeshAreas.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Mid Year\ProjectSettings\TagManager.asset
-    fullPath: C:\Users\frank\Mid-Year\Mid Year\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Mid Year\Temp\UnityLockfile
     fullPath: C:\Users\frank\Mid-Year\Mid Year\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Mid Year\Temp\UnityTempFile-3da8484030115724db8371e17918b7e6
-    fullPath: C:\Users\frank\Mid-Year\Mid Year\Temp\UnityTempFile-3da8484030115724db8371e17918b7e6
-    projectPath: Temp\UnityTempFile-3da8484030115724db8371e17918b7e6
+  - path: Mid Year\Temp\UnityTempFile-ff4e2182268e97245af3cfdc5af81027
+    fullPath: C:\Users\frank\Mid-Year\Mid Year\Temp\UnityTempFile-ff4e2182268e97245af3cfdc5af81027
+    projectPath: Temp\UnityTempFile-ff4e2182268e97245af3cfdc5af81027
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
