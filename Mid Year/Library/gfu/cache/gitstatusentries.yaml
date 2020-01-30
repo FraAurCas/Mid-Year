@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-01-30T09:28:01.265-05:00
+  lastUpdatedAtString: 2020-01-30T09:28:49.877-05:00
   initializedAtString: 2020-01-30T09:12:50.554-05:00
   entries:
   - path: Mid Year\Library\gfu\cache\branches.yaml
@@ -22,18 +22,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Mid Year\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Mid Year\Library\gfu\cache\gitlog.yaml
     fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Mid Year\Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\frank\Mid-Year\Mid Year\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
