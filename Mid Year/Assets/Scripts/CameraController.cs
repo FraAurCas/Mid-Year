@@ -25,6 +25,8 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         moveCamera();
+        Cursor.lockState = CursorLockMode.Locked;
+
     }
 
     void moveCamera()
@@ -42,5 +44,10 @@ public class CameraController : MonoBehaviour
             float rotationY = transform.localEulerAngles.y;
             transform.localEulerAngles = new Vector3(rotationX, rotationY, 0);
         }
+    }
+
+    private void OnDisable()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
     }
 }

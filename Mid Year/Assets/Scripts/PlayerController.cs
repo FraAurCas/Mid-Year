@@ -6,27 +6,45 @@ public class PlayerController : MonoBehaviour
 
 
 {
-    public float speed = 6.0f;
+    public float speed = 4.0f;
     public float gravity = -9.8f;
 
     public Image healthBar;
-    private float healthCooldown;
+    public Image staminaBar;
 
-    private float stamina = 1000f;
-    private float health = 100f;
+    public Canvas hud;
+    public Canvas gameOverScreen;
+    public Canvas pauseScreen;
+
+    private float stamina = 100f;
+    private float staminaDecrease = .5f;
+    private float walkingSpeed = 4.0f;
+
+    private int health = 100;
+    private float healthCooldown;
     private bool recoveringStamina = false;
+
+    private float healAmount = 50.0f;
+    private float damageAmount = 10.0f;
+    private int bulletAmount = 6;
+
+    public GameObject world;
+    public GameObject gun;
+    public Camera mainCamera;
 
     private CharacterController characterController;
 
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        gameOverScreen.GetComponent<Canvas>().enabled = false;
     }
 
 void Update()
     {
         checkSprint();
         movePlayer();
+        checkPauseMenu();
     }
 
     void movePlayer()
@@ -68,36 +86,104 @@ void Update()
     {
         if (Input.GetKey(KeyCode.LeftShift) && ((stamina > 0) && !recoveringStamina))
         {
-            speed = 9.0f;
-            stamina -= 5;
+            speed = walkingSpeed * 2.0f;
+            stamina -= staminaDecrease;
+            staminaBar.fillAmount -= staminaDecrease / 100;
+
         }
 
-        else if (stamina < 1000)
+        else if (stamina < 100)
         {
-            stamina += 2.5f;
-            speed = 6.0f;
+            stamina += staminaDecrease / 2;
+            staminaBar.fillAmount += staminaDecrease / 200;
+            speed = walkingSpeed;
 
             recoveringStamina = true;
 
-            if (stamina >= 505)
+            if (stamina >= 50)
             {
                 recoveringStamina = false;
             }
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void checkPauseMenu()
     {
-        if(collision.gameObject.tag.Equals("Enemy") && Time.time > healthCooldown)
+        if (Input.GetKey(KeyCode.Escape))
         {
-            health -= 10;
-            healthBar.fillAmount -= .3f;
-            if(health <= 0)
+            pauseScreen.enabled = true;
+            pauseScreen.GetComponent<PauseMode>().enabled = true;
+        }
+    }
+
+    private void OnDisable()
+    {
+        //Shows the game over screen
+        hud.GetComponent<Canvas>().enabled = false;
+
+        if(health <= 0)
+            gameOverScreen.GetComponent<Canvas>().enabled = true;
+
+        //Disables all scripts
+        GetComponent<CameraController>().enabled = false;
+        gun.GetComponent<GunController>().enabled = false;
+        mainCamera.GetComponent<CameraController>().enabled = false;
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
+    private void OnEnable()
+    {
+        //Shows the hud again;
+        hud.GetComponent<Canvas>().enabled = true;
+
+        //Enables all scripts
+        GetComponent<CameraController>().enabled = true;
+        gun.GetComponent<GunController>().enabled = true;
+        mainCamera.GetComponent<CameraController>().enabled = true;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.tag.Equals("Enemy") && Time.time > healthCooldown)
+        {
+            health -= (int)damageAmount;
+            healthBar.fillAmount -= damageAmount / 100;
+            if (health <= 0)
             {
-                //Do death stuff
+
+                GetComponent<PlayerController>().enabled = false;
             }
 
-            healthCooldown = Time.time + 1/2f;
+            healthCooldown = Time.time + 1 / 2f;
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    
+        if(other.gameObject.tag.Equals("Medkit") && health < 100)
+        {
+            if (health > 100 - healAmount)
+            {
+                health = 100;
+                healthBar.fillAmount = 1;
+            }
+
+            else
+            {
+                health += (int)healAmount;
+                healthBar.fillAmount += healAmount/100;
+            }
+            Destroy(other.gameObject);
+            world.GetComponent<WorldController>().TakenMed();
+        }
+
+        if (other.gameObject.tag.Equals("Ammo"))
+        {
+            gun.GetComponent<GunController>().totalAmmo += bulletAmount;
+            Destroy(other.gameObject);
+            world.GetComponent<WorldController>().TakenAmmo();
         }
     }
 }
