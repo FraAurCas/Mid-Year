@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-01-02T08:09:46.638-05:00
-  initializedAtString: 2020-01-02T08:09:46.606-05:00
+  lastUpdatedAtString: 2020-01-30T09:24:39.126-05:00
+  initializedAtString: 2020-01-30T09:13:10.151-05:00
   localBranches:
+  - name: final
+    tracking: origin/final
   - name: master
     tracking: origin/master
   remoteBranches:
+  - name: origin/final
+    tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
   remotes:
@@ -31,8 +35,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - final
     - master
     values:
+    - name: final
+      remote:
+        name: origin
+        url: https://github.com/FraAurCas/Mid-Year.git
+      trackingBranch: final
     - name: master
       remote:
         name: origin
@@ -43,9 +53,15 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - final
       - master
     subKeyValues:
     - Values:
+      - name: final
+        remote:
+          name: origin
+          url: https://github.com/FraAurCas/Mid-Year.git
+        trackingBranch: 
       - name: master
         remote:
           name: origin
